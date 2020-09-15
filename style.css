@@ -36,6 +36,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.header_item:hover{
+    background-color: #f6f6f6;
 }
 
 .main {
@@ -101,8 +106,12 @@ button {
     cursor: pointer;
 }
 
+button:hover{
+    background: linear-gradient(to top, #0e0ee2, #0411a1);
+}
+
 button:active {
-    background-color: #0b306f;
+    background: linear-gradient(to top, #0e0eb3, #030d8b);
 }
 
 footer {
